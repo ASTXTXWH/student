@@ -1,0 +1,72 @@
+ /* html,body{width:100%; height:100%; margin: 0;} */
+ body{padding: 0px;margin: 0px;}
+ #subject{
+     width:100%;height:100%;
+     background-image: url(../images/xx.gif);
+     background-size: 100% 100%;
+ }
+.theme{
+     height:100px;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.sTitle{
+     font-size: 40px;
+     color: red;
+     font-family:'华文隶书';
+}
+.bottomBody{
+     width:100%;height:640px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.loginBox{
+     width:600px;height: 400px;
+     display: flex;
+     justify-content:space-between;
+}
+.lsignin{
+     width:200px;height:400px;
+     background-image: linear-gradient(to bottom right,rgb(25,0,255),rgb(111,0,255),rgb(242,0,250));
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.lsignin img{
+     width:180px;height:180px;
+}
+.rsignin{
+     width:400px;height:400px;
+     background-color:whitesmoke;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.press{
+    width:120px;height:30px;
+    font-weight:bold;font-size:15px;
+}
+.fillet{
+    height:25px;vertical-align:middle
+}
+.rsignin img{
+    vertical-align:middle
+}
+.top{
+    margin-top: 15px;
+}
+.dlbutton{
+    width:200px;height:30px;
+    background-color: blueviolet;
+}
+.wspan{
+    margin-left:200px;color:blue;font-size:10px;
+}
+a{text-decoration:none;}
+.sspan{
+    margin-left:30px;
+    color:red;
+}

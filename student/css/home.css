@@ -1,0 +1,45 @@
+ html,body{height:100%; margin:0;}
+        /* body{padding: 0; margin:0;} */
+        .bodydata{
+            width:100%;height:100%;
+            background-image: url(../images/kfg.gif);
+            background-size: 100% 100%;
+        }
+        .upper{
+            width: 100%;height: 40px;
+            color: white;
+            font-size: 25px;
+        }
+        .rbom{display: inline-block;float:right;}
+        .tuser{vertical-align:middle;}
+        .tname{vertical-align:middle;margin-right:10px;}
+        .tout{vertical-align:middle;}
+        img{vertical-align:middle}
+        .middle{vertical-align:middle;}
+        .margin-main{width: 160px;float: left;color: white;}
+        .margin-top{
+            height: 40px;line-height: 40px;
+            border-bottom:1px solid white;
+            text-align: left;color: white;
+            font-size: 24px;font-weight: bold;
+        }
+        .sidebar-list{text-align: left;display: inline-block;width: 100%;}
+        .liright{margin-right:4px;margin-left:2px}
+        .classify li{border-bottom: 1px solid white;list-style: none;}
+        .btna{
+            /* padding: 0 15px 0 20px; */
+            display: block;
+            color:#fff;height: 40px;line-height: 40px;
+            position: relative;
+            text-decoration:none;
+        }
+        .classifys{text-align: center;}
+        .classifys li{height: 40px;line-height: 40px;}
+        ul{
+            padding: 0px;margin: 0px;
+        }
+        .bodyhtml{
+            margin-left: 160px;
+        }
+        a{text-decoration:none;color: blue;}
+        .lcont{margin-left:12px;}

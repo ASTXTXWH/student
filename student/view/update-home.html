@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        html,body{height:100%; margin:0;}
+        .bodyhtml-head{
+            width: 100%;height: 40px;line-height: 40px;color: white;
+        }
+        a{text-decoration:none;color: white;}
+        .inputtext{
+            text-align: center;color: white;
+            margin-top: 100px;
+        }
+        .sub{margin-left:10px;}
+        table{margin: auto;}
+        .dateform{margin-top: 30px;}
+        img{vertical-align:middle}
+        .middle{vertical-align:middle;}
+    </style>         
+</head>
+<body>
+            <div class="bodyhtml-head">
+            <span class="middle">后台管理</span>
+                <img src="../images/right.png" alt="向右">
+                <span class="middle">学生信息</span>
+                <img src="../images/right.png" alt="向右">
+                <span class="middle">修改</span>
+            </div>           
+            <div class="inputtext">
+                <form action="./updatehome.php" method="post">
+                    请输入学生的学号：<input type="text" name="tid" placeholder="请输入学号" autocomplete='off' required>
+                    <input type="submit" class="sub">
+                </form>
+            </div>   
+</body>
+</html>

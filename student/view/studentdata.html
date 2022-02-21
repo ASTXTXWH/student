@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        html,body{height:100%; margin:0;}
+        .bodyhtml-head{
+            width: 100%;height: 40px;line-height: 40px;color: white;
+        }
+        a{text-decoration:none;color: white;}
+        .inputtext{
+            text-align: center;color: white;
+            margin-top: 100px;
+        }
+        .sub{margin-left:10px;}
+        table{margin: auto;}
+        .dateform{margin-top: 30px;}
+        img{vertical-align:middle}
+        .middle{vertical-align:middle;}
+
+        .redn{
+            color: red;
+        }
+    </style>         
+</head>
+<body>
+            <div class="bodyhtml-head">
+            <span class="middle">后台管理</span>
+                <img src="../images/right.png" alt="向右">
+                <span class="middle">密码维护</span>
+                <img src="../images/right.png" alt="向右">
+                <span class="middle">学生密码</span>
+            </div>           
+            <div class="inputtext">
+                <h2>查询学生密码</h2>
+                <form action="student-data.php" method="post">
+                    <table>
+                        <tr>
+                            <td><input type="text" name="uid" placeholder="请输入学生学号" autocomplete='off' required></td>
+                            <td><span id="cuid" class="redn"></span></td>
+                        </tr>
+                        <tr>
+                            <td> <input type="submit" name="sub"></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </form>
+            </div> 
+</body>
+</html>

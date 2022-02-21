@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        html,body{height:100%; margin:0;}
+        .bodyhtml-head{
+            width: 100%;height: 40px;line-height: 40px;color: white;
+        }
+        a{text-decoration:none;color: white;}
+        .inputtext{
+            text-align: center;color: white;
+            margin-top: 100px;
+        }
+        .sub{margin-left:10px;}
+        img{vertical-align:middle}
+        .middle{vertical-align:middle;}
+        .cright{margin-right: 20px;}
+    </style>         
+</head>
+<body>
+            <div class="bodyhtml-head">
+            <span class="middle">后台管理</span>
+                <img src="../../images/right.png" alt="向右">
+                <span class="middle">用户信息</span>
+                <img src="../../images/right.png" alt="向右">
+                <span class="middle">信息修改</span>
+            </div>           
+            <div class="inputtext">
+                <form action="./update-user.php" method="post">
+                    <span class="cright">查询信息</span>
+                    <input type="text" name="tid" placeholder="输入您的学号" autocomplete='off' required>
+                    <input type="text" name="tpwd" placeholder="输入您的登录密码" autocomplete='off' required>
+                    <input type="submit" class="sub">
+                </form>
+            </div>   
+</body>
+</html>
